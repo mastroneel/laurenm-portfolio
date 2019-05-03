@@ -61,6 +61,7 @@
     width: 550px;
     height: 275px;
     background-size: cover;
+    background-position: center top;
     background-repeat: no-repeat;
     // display: block!important;
     margin: 20px;
@@ -132,6 +133,28 @@
   }
   .paid-18 {
     background-image: url('../img/bitfinding-accordion.png');
+  }
+  .paid-19 {
+    background-image: url('../img/leads.png');
+  }
+  .paid-20 {
+    background-image: url('../img/puresurvey.png');
+  }
+  .paid-21 {
+    background-image: url('../img/puresdr.png');
+  }
+  .paid-22 {
+    background-image: url('../img/adgile.png');
+  }
+  .paid-23 {
+    background-image: url('../img/model.png');
+  }
+  .paid-24 {
+    background-image: url('../img/brandollo.png');
+  }
+  .paid-25 {
+    background-image: url('../img/patrick.png');
+    background-position: left;
   }
   .portfolio-1 {
     background-image: url('../img/jekyll.png');

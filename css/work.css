@@ -45,6 +45,7 @@
     width: 550px;
     height: 275px;
     background-size: cover;
+    background-position: center top;
     background-repeat: no-repeat;
     margin: 20px; }
     .work .paid .image-overlay, .work .portfolio .image-overlay {
@@ -93,6 +94,21 @@
     background-image: url("../img/bitfinding-tabs.png"); }
   .work .paid-18 {
     background-image: url("../img/bitfinding-accordion.png"); }
+  .work .paid-19 {
+    background-image: url("../img/leads.png"); }
+  .work .paid-20 {
+    background-image: url("../img/puresurvey.png"); }
+  .work .paid-21 {
+    background-image: url("../img/puresdr.png"); }
+  .work .paid-22 {
+    background-image: url("../img/adgile.png"); }
+  .work .paid-23 {
+    background-image: url("../img/model.png"); }
+  .work .paid-24 {
+    background-image: url("../img/brandollo.png"); }
+  .work .paid-25 {
+    background-image: url("../img/patrick.png");
+    background-position: left; }
   .work .portfolio-1 {
     background-image: url("../img/jekyll.png"); }
   .work .portfolio-2 {
