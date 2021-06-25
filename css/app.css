@@ -5,7 +5,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-@import url("https://fonts.googleapis.com/css?family=Poppins");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
 @import url(../node_modules/lightbox2/dist/css/lightbox.css);
 html {
   font-family: sans-serif;
@@ -8136,7 +8136,7 @@ button.close {
     font-weight: bold;
     color: #fff;
     width: 700px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 70px;
     display: block;
     margin: 0 auto;
@@ -8172,7 +8172,7 @@ span {
   color: #fff;
   display: block;
   font-weight: bold;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 70px;
   text-align: center; }
 
@@ -8301,8 +8301,8 @@ span {
     margin-top: 40px; }
   .work button {
     color: #fff;
-    background-color: #262626;
-    border: 1px solid #262626;
+    background-color: #191919;
+    border: 1px solid #191919;
     border-radius: 2px;
     padding: 8px 12px;
     font-weight: bold;
@@ -8312,21 +8312,22 @@ span {
     .work button:focus {
       outline: none; }
     .work button:hover {
-      color: #66b7bd;
+      background-color: #98d2ad;
+      border-color: #98d2ad;
       transition: 0.2s; }
   .work p {
     color: rgba(255, 255, 255, 0.7);
     font-size: 25px; }
   .work a, .work a:visited {
     color: #fff;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin-top: 10px;
     font-size: 25px;
     transition: 0.2s;
     text-decoration: none;
     letter-spacing: 1px; }
     .work a:hover, .work a:visited:hover {
-      color: #66b7bd;
+      color: #98d2ad;
       transition: 0.2s; }
   .work .grid-container {
     width: 1200px;
@@ -8342,10 +8343,12 @@ span {
     .work .paid .image-overlay, .work .portfolio .image-overlay {
       width: 550px;
       height: 275px;
-      padding-top: 90px;
+      padding-top: 120px;
       background-color: rgba(0, 0, 0, 0.6);
       opacity: 0;
       transition: 0.3s; }
+      .work .paid .image-overlay a, .work .portfolio .image-overlay a {
+        font-weight: 700; }
     .work .paid:hover .image-overlay, .work .portfolio:hover .image-overlay {
       opacity: 1;
       transition: 0.3s; }
@@ -8404,6 +8407,22 @@ span {
     background-image: url("../img/tx.png"); }
   .work .paid-27 {
     background-image: url("../img/spf.png"); }
+  .work .paid-28 {
+    background-image: url("../img/xandrine.png"); }
+  .work .paid-29 {
+    background-image: url("../img/bridgewater.jpg"); }
+  .work .paid-30 {
+    background-image: url("../img/babette.png"); }
+  .work .paid-31 {
+    background-image: url("../img/invest-defy.png"); }
+  .work .paid-32 {
+    background-image: url("../img/filament.png"); }
+  .work .paid-33 {
+    background-image: url("../img/lemon-perfect.png"); }
+  .work .paid-34 {
+    background-image: url("../img/wherever.png"); }
+  .work .paid-35 {
+    background-image: url("../img/bitfinding.png"); }
   .work .portfolio-1 {
     background-image: url("../img/jekyll.png"); }
   .work .portfolio-2 {
@@ -8456,7 +8475,7 @@ span {
     .work .paid .image-overlay, .work .portfolio .image-overlay {
       width: 660px;
       height: 330px;
-      padding-top: 110px; } }
+      padding-top: 140px; } }
 @media (min-width: 1800px) {
   .work .grid-container {
     width: 1700px; }
@@ -8466,7 +8485,7 @@ span {
     .work .paid .image-overlay, .work .portfolio .image-overlay {
       width: 792px;
       height: 396px;
-      padding-top: 110px; } }
+      padding-top: 160px; } }
 @media (min-width: 2271px) {
   .work .grid-container {
     width: 2050px; }
@@ -8476,7 +8495,7 @@ span {
     .work .paid .image-overlay, .work .portfolio .image-overlay {
       width: 950px;
       height: 475px;
-      padding-top: 110px; } }
+      padding-top: 200px; } }
 @media (max-width: 1178px) {
   .work .grid-container {
     width: 960px; }
@@ -8486,7 +8505,7 @@ span {
     .work .paid .image-overlay, .work .portfolio .image-overlay {
       width: 440px;
       height: 220px;
-      padding-top: 70px; } }
+      padding-top: 90px; } }
 @media (max-width: 967px) {
   .work .grid-container {
     width: 880px; }
@@ -8496,7 +8515,7 @@ span {
     .work .paid .image-overlay, .work .portfolio .image-overlay {
       width: 396px;
       height: 198px;
-      padding-top: 60px; } }
+      padding-top: 80px; } }
 @media (max-width: 841px) {
   .work .grid-container {
     width: 760px; }
@@ -8506,7 +8525,7 @@ span {
     .work .paid .image-overlay, .work .portfolio .image-overlay {
       width: 336px;
       height: 168px;
-      padding-top: 50px; } }
+      padding-top: 65px; } }
 @media (min-width: 768px) {
   .work .mobile-links {
     display: none; } }
@@ -8519,10 +8538,10 @@ span {
     margin-bottom: 20px;
     line-height: 1.8; }
     .work .mobile-links a, .work .mobile-links a:visited {
-      color: #262626;
+      color: #191919;
       font-size: 15px; }
     .work .mobile-links p {
-      color: #262626;
+      color: #191919;
       font-size: 15px; }
   .work .paid, .work .portfolio {
     width: 550px;
@@ -8572,15 +8591,15 @@ span {
     .contact form input, .contact form select {
       width: 400px;
       height: 40px;
-      border: 2px solid #262626;
+      border: 2px solid #191919;
       background: transparent;
       border-radius: 2px;
       margin-top: -10px; }
     .contact form button {
       margin-top: 20px;
       color: #fff;
-      background-color: #262626;
-      border: 1px solid #262626;
+      background-color: #191919;
+      border: 1px solid #191919;
       border-radius: 2px;
       padding: 15px 40px; }
 
@@ -8589,9 +8608,141 @@ span {
     width: 280px; }
     .contact form input, .contact form select {
       width: 280px; } }
+.project-container h2 {
+  margin-bottom: 25px;
+  color: #191919; }
+
+.laptop-image {
+  background-image: url("../img/laptop.png");
+  margin: 30px auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 1000px;
+  height: 540px;
+  min-height: 500px;
+  padding-top: 40px;
+  position: relative;
+  z-index: 1000;
+  pointer-events: none; }
+
+.view-desktop, .view-desktop-mobile {
+  display: none; }
+
+.laptop-design {
+  width: 680px;
+  height: 420px;
+  overflow: scroll;
+  margin: 0 auto;
+  margin-top: -532px;
+  z-index: 0; }
+  .laptop-design img {
+    width: 100%; }
+
+.toggle-button-container a, .mobile-toggle-button-container a {
+  border: 1px solid #191919;
+  background-color: #191919;
+  color: #fff;
+  border-radius: 3px;
+  font-weight: 700;
+  padding: 10px 15px;
+  width: 150px;
+  transition: 0.2s; }
+  .toggle-button-container a:hover, .mobile-toggle-button-container a:hover {
+    text-decoration: none;
+    background-color: #98d2ad;
+    border-color: #98d2ad;
+    transition: 0.2s; }
+
+.hide-desktop {
+  display: none; }
+
+.phone-image {
+  background-image: url("../img/transparent-iphone-se.png");
+  margin: 30px auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 275px;
+  height: 550px;
+  min-height: 500px;
+  padding-top: 40px;
+  position: relative;
+  z-index: 1000;
+  pointer-events: none; }
+
+.phone-design {
+  width: 235px;
+  height: 480px;
+  overflow: scroll;
+  margin: 0 auto;
+  margin-top: -530px;
+  text-align: center; }
+  .phone-design img {
+    width: 100%; }
+
+.back-button, .back-button:visited {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 10000;
+  border: 1px solid #191919;
+  background-color: #191919;
+  color: #fff;
+  border-radius: 3px;
+  font-weight: 700;
+  padding: 10px 15px;
+  transition: 0.2s; }
+  .back-button:hover, .back-button:visited:hover {
+    text-decoration: none;
+    background-color: #98d2ad;
+    border-color: #98d2ad;
+    transition: 0.2s;
+    color: #fff; }
+
+.image-container {
+  width: 90vw;
+  margin: 40px auto; }
+  .image-container img {
+    width: 100%; }
+
+.scrollup {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  display: none;
+  background-color: #191919;
+  transition: 0.2s; }
+  .scrollup:hover {
+    background-color: #98d2ad;
+    transition: 0.2s; }
+  .scrollup img {
+    width: 25px;
+    padding-top: 13px; }
+
+@media (max-width: 1050px) {
+  .laptop-image {
+    width: 800px;
+    height: 540px; }
+
+  .laptop-design {
+    width: 530px;
+    height: 360px;
+    margin-top: -542px; } }
+@media (min-width: 851px) {
+  .mobile-toggle-button-container {
+    display: none; }
+
+  .image-container {
+    display: none; } }
+@media (max-width: 850px) {
+  .hide-mobile, .hide-desktop, .toggle-button-container {
+    display: none; } }
 .footer {
   height: 220px;
-  background-color: #262626; }
+  background-color: #191919; }
   .footer h6 {
     color: #fff;
     font-size: 12px;
@@ -8602,7 +8753,7 @@ span {
   margin: 0; }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   text-align: center; }
 
 /*# sourceMappingURL=app.css.map */

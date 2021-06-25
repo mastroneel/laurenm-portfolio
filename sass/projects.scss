@@ -1,0 +1,168 @@
+
+.project-container {
+  h2 {
+    margin-bottom: 25px;
+    color: #191919;
+  }
+}
+
+.laptop-image {
+  background-image: url('../img/laptop.png');
+  margin: 30px auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 1000px;
+  height: 540px;
+  min-height: 500px;
+  padding-top: 40px;
+  position: relative;
+  z-index: 1000;
+  pointer-events: none;
+}
+
+.view-desktop, .view-desktop-mobile {
+  display: none;
+}
+
+.laptop-design {
+  width: 680px;
+  height: 420px;
+  overflow: scroll;
+  margin: 0 auto;
+  margin-top: -532px;
+  z-index: 0;
+  img {
+    width: 100%;
+  }
+}
+
+.toggle-button-container, .mobile-toggle-button-container {
+  a {
+    border: 1px solid #191919;
+    background-color: #191919;
+    color: #fff;
+    border-radius: 3px;
+    font-weight: 700;
+    padding: 10px 15px;
+    width: 150px;
+    transition: 0.2s;
+    &:hover {
+      text-decoration: none;
+      background-color: #98d2ad;
+      border-color: #98d2ad;
+      transition: 0.2s;
+    }
+  }
+}
+
+.hide-desktop {
+  display: none;
+}
+
+
+
+.phone-image {
+  background-image: url('../img/transparent-iphone-se.png');
+  margin: 30px auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 275px;
+  height: 550px;
+  min-height: 500px;
+  padding-top: 40px;
+  position: relative;
+  z-index: 1000;
+  pointer-events: none;
+
+}
+
+.phone-design {
+  width: 235px;
+  height: 480px;
+  overflow: scroll;
+  margin: 0 auto;
+  margin-top: -530px;
+  text-align: center;
+  img {
+    width: 100%;
+  }
+}
+
+.back-button, .back-button:visited {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 10000;
+  border: 1px solid #191919;
+  background-color: #191919;
+  color: #fff;
+  border-radius: 3px;
+  font-weight: 700;
+  padding: 10px 15px;
+  transition: 0.2s;
+  &:hover {
+    text-decoration: none;
+    background-color: #98d2ad;
+    border-color: #98d2ad;
+    transition: 0.2s;
+    color: #fff;
+  }
+}
+
+.image-container {
+  width: 90vw;
+  margin: 40px auto;
+  img {
+    width: 100%;
+  }
+}
+
+.scrollup {
+ width: 55px;
+ height: 55px;
+ border-radius: 50%;
+ position: fixed;
+ bottom: 20px;
+ right: 20px;
+ z-index: 1000;
+ display: none;
+ background-color: #191919;
+ transition: 0.2s;
+ &:hover {
+   background-color: #98d2ad;
+   transition: 0.2s;
+ }
+  img {
+   width: 25px;
+    padding-top: 13px;
+  }
+}
+
+
+@media (max-width: 1050px) {
+  .laptop-image {
+    width: 800px;
+    height: 540px;
+  }
+  .laptop-design {
+    width: 530px;
+    height: 360px;
+    margin-top: -542px;
+  }
+}
+
+
+@media (min-width: 851px) {
+  .mobile-toggle-button-container {
+    display: none;
+  }
+  .image-container {
+    display: none;
+  }
+}
+
+@media (max-width: 850px) {
+  .hide-mobile, .hide-desktop, .toggle-button-container {
+    display: none;
+  }
+}

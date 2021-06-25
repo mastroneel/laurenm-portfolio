@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="../css/app.css">
+    <title>Sustainable Production Forum</title>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous">
+    </script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <script src="js/typed.js" type="text/javascript"></script>
+  </head>
+  <body>
+
+    <!-- scroll to top button -->
+    <a href="#" class="scrollup center"><img src="https://i.ibb.co/ZSWMmP8/caret.png"></a>
+    <!-- end scroll to top button -->
+
+    <!-- back home -->
+
+    <a class="back-button" href="/">< Back</a>
+
+    <!-- end back home -->
+
+    <div class="row">
+      <div class="col-xs-12">
+
+
+
+          <!-- start project container -->
+          <div class="project-container">
+
+            <h2>
+              Sustainable Production Forum
+            </h2>
+
+            <!-- toggle mobile/desktop showcase for desktop -->
+            <div class="toggle-button-container">
+              <a class="view-desktop" href="#">view desktop</a>
+              <a class="view-mobile" href="#">view mobile</a>
+            </div>
+
+            <!-- toggle mobile/desktop showcase for mobile -->
+            <div class="mobile-toggle-button-container">
+              <a class="view-desktop-mobile" href="#">view desktop</a>
+              <a class="view-mobile-mobile" href="#">view mobile</a>
+            </div>
+
+            <!-- desktop design showcase -->
+            <div class="laptop-image hide-mobile">
+
+            </div>
+
+            <div class="laptop-design hide-mobile">
+              <img src="../img/spf-full.png">
+            </div>
+
+            <div class="phone-image hide-desktop">
+
+            </div>
+
+            <div class="phone-design hide-desktop">
+              <img src="../img/spf-mobile.png">
+            </div>
+            <!-- desktop design showcase -->
+
+
+
+            <!-- mobile design showcase -->
+
+            <div class="image-container">
+              <img class="desktop-design" src="../img/spf-full.png" alt="spf">
+              <img class="mobile-design" src="../img/spf-mobile.png" alt="spf">
+            </div>
+
+            <!-- end mobile design showcase -->
+
+          </div>
+
+
+      </div>
+      <!-- end project container -->
+    </div>
+
+
+    <script>
+
+      $( ".view-mobile" ).click(function() {
+        $('.hide-mobile').fadeOut();
+        $('.hide-desktop').delay(400).fadeIn();
+        $('.view-mobile').fadeOut();
+        $('.view-desktop').delay(400).fadeIn();
+      });
+
+      $( ".view-desktop" ).click(function() {
+        $('.hide-desktop').fadeOut();
+        $('.hide-mobile').delay(400).fadeIn();
+        $('.view-desktop').fadeOut();
+        $('.view-mobile').delay(400).fadeIn();
+      });
+
+      $( ".view-mobile-mobile" ).click(function() {
+        $('.desktop-design').fadeOut();
+        $('.mobile-design').delay(400).fadeIn();
+        $('.view-mobile-mobile').fadeOut();
+        $('.view-desktop-mobile').delay(400).fadeIn();
+      });
+
+      $( ".view-desktop-mobile" ).click(function() {
+        $('.mobile-design').fadeOut();
+        $('.desktop-design').delay(400).fadeIn();
+        $('.view-desktop-mobile').fadeOut();
+        $('.view-mobile-mobile').delay(400).fadeIn();
+      });
+
+
+      $(document).ready(function () {
+        if ($(window).width() <= 850) {
+
+                  $(window).scroll(function () {
+              if ($(this).scrollTop() > 100) {
+                  $('.scrollup').fadeIn();
+              } else {
+                  $('.scrollup').fadeOut();
+              }
+          });
+          $('.scrollup').click(function () {
+              $("html, body").animate({
+                  scrollTop: 0
+              }, 600);
+              return false;
+          });
+
+            }
+      });
+
+
+
+    </script>
+
+
+  </body>
+</html>
